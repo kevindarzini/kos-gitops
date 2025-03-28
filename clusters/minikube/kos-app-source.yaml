@@ -8,4 +8,4 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  url: https://github.com/kevindarzini/kos-app.git
+  url: https://github.com/kevindarzini/kos-gitops
