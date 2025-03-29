@@ -5,7 +5,7 @@ metadata:
   name: kos-app
   namespace: flux-system
 spec:
-  interval: 5m0s
+  interval: 1m0s
   path: ../../../apps/kos-app/
   prune: true
   sourceRef:
