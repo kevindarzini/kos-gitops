@@ -13,14 +13,3 @@ spec:
         kind: GitRepository
         name: kos-app
   interval: 30s
----
-apiVersion: source.toolkit.fluxcd.io/v1
-kind: GitRepository
-metadata:
-  name: kos-app
-  namespace: flux-system
-spec:
-  interval: 30s
-  ref:
-    branch: master
-  url: https://github.com/kevindarzini/kos-app
